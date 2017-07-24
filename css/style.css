@@ -100,4 +100,66 @@ header {
   margin-bottom: 20px;
 }
 
+/* ---------------------------------- */
+/* SECTION 1 */
+/* ---------------------------------- */
+.section-1-bg {
+  background-image: url('../img/mask.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.section-margin {
+  margin-top: 60px;
+}
+.icon-small {
+  width: 40px;
+}
+.section-text {
+  color: #fff;
+  letter-spacing: .2px;
+  line-height: 22px;
+  float: right;
+}
+.section-text h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.section-text p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.section-text span {
+  font-weight: 700;
+  font-size: 15px;
+}
+.section-img {
+  width: 250px;
+  margin-left: 200px;
+}
+.section-img img {
+  float: right;
+}
 
+/* ---------------------------------- */
+/* SECTION 2 */
+/* ---------------------------------- */
+
+.section-2-bg .section-text{
+  color: #0C418D;
+}
+.clear {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.section-2-bg .section-text {
+  float: left;
+}
+.section-2-bg .section-img {
+  width: 400px;
+  margin-left: 90px;
+}
