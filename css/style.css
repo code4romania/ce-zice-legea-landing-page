@@ -9,7 +9,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 .whitespace {
-  margin-top: 10px;
+  padding-top: 1px;
 }
 /* ---------------------------------- */
 /* HEADER */
@@ -103,7 +103,9 @@ header {
 /* ---------------------------------- */
 /* SECTION 1 */
 /* ---------------------------------- */
-.section-1-bg {
+.section-1-bg,
+.section-3-bg,
+footer {
   background-image: url('../img/mask.png');
   background-size: cover;
   background-position: center;
@@ -127,6 +129,7 @@ header {
   font-size: 20px;
 }
 .section-text p {
+  width: 500px;
   font-size: 14px;
   font-weight: 300;
   text-align: justify;
@@ -136,19 +139,20 @@ header {
   font-weight: 700;
   font-size: 15px;
 }
-.section-img {
-  width: 250px;
-  margin-left: 200px;
-}
-.section-img img {
-  float: right;
+.section-1-bg .section-img img {
+  position: relative;
+  width: 200px;
+  top: 20px;
+  left: 35%;
 }
 
 /* ---------------------------------- */
 /* SECTION 2 */
 /* ---------------------------------- */
-
-.section-2-bg .section-text{
+.section-2-bg {
+  margin-top: 30px;
+}
+.section-2-bg .section-text {
   color: #0C418D;
 }
 .clear {
@@ -159,7 +163,63 @@ header {
 .section-2-bg .section-text {
   float: left;
 }
-.section-2-bg .section-img {
-  width: 400px;
-  margin-left: 90px;
+.section-2-bg .section-img img {
+  position: relative;
+  width: 450px;
+  left: 10%;
+}
+.section-2-bg .icon-small {
+  color: #0C418D;
+}
+
+/* ---------------------------------- */
+/* SECTION 3 */
+/* ---------------------------------- */
+.section-3-bg .section-img img {
+  position: relative;
+  top: 20px;
+}
+
+/* ---------------------------------- */
+/* SECTION 4  - form*/
+/* ---------------------------------- */
+.form {
+  background-color: #f0f0f5;
+  height: auto;
+  padding: 70px;
+}
+.form-layout {
+  margin-bottom: 15px;
+  padding: 0;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #0C418D;
+  height: 50px;
+  margin-top: 30px;
+}
+.btn-custom:hover {
+  color: #fff;
+  background-color: #1976D2;
+}
+
+/* ---------------------------------- */
+/* FOOTER*/
+/* ---------------------------------- */
+.brand-logo img {
+  width: 35px;
+}
+.brand-logo p {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 16px;
+}
+.social-media {
+    position: relative;
+    top: 30px;
+    right: -425px;
+}
+.social-media img {
+  margin-left: 10px;
 }
