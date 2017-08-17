@@ -47,7 +47,7 @@ header {
 .navbar-default .navbar-nav>li {
   margin-left: 80px;
 }
-.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
     background-color: transparent;
@@ -59,7 +59,7 @@ header {
   padding-top: 50px;
 }
 .navbar-brand {
-  padding: 0 15px;  
+  padding: 0 15px;
 }
 .navbar-brand img {
   max-height: 50px;
@@ -229,9 +229,9 @@ footer {
 .label-text {
   color: #fff;
   font-weight: 400;
-  font-size: 13px
-  line-height: 16px
-  letter-spacing: 10%
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 10%;
 }
 .form span {
   width: 30px;
