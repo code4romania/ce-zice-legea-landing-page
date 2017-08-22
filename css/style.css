@@ -206,9 +206,17 @@ footer {
 /* FOOTER*/
 /* ---------------------------------- */
 
-@media(min-width:992px){
+footer div.czl-social-media-container {
+  margin-top: 30px;
+}
+
+@media(min-width:992px) {
   .czl-row-eq-height div[class^='col-'] {
     height: 42px;
+  }
+
+  footer div.czl-social-media-container {
+    margin-top: 0;
   }
 }
 
@@ -236,15 +244,55 @@ footer {
   margin-bottom: 5px;
 }
 
-div.czl-flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+div.czl-flex-center
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
 
-footer .social-media-icon {
-  margin: 5px;
+footer div.social-media-icon
+{
+    display: flex;
+
+    width: 2.5ch;
+    height: 2.5ch;
+    margin: 5px;
+
+    border-radius: 100px;
+    background-color: white;
+
+    align-items: center;
+    justify-content: center;
 }
+
+
+footer div.czl-social-media-container a
+{
+    text-decoration: none;
+
+    color: #0d47a1;
+}
+
+footer div.czl-social-media-container a:hover
+{
+    color: #0d47a1;
+}
+
+footer .social-media-icon:hover
+{
+    background-color: yellow; /* temporary */
+}
+
+@media(min-width:992px)
+{
+    footer div.czl-social-media-container div.social-media-icon
+    {
+        font-size: 80%;
+    }
+}
+
 
 footer {
   color: white;
@@ -257,7 +305,15 @@ footer div.container > div.row {
 }
 
 footer div.container > div.row:last-child {
-  margin-bottom:10px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer a:hover {
+  color: #FFF;
 }
 
 /* ---------------------------------- */
